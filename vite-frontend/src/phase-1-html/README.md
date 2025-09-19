@@ -20,37 +20,39 @@ El objetivo de esta fase es construir la **base sólida del front-end**:
 
 El archivo principal es `index.html`, que contiene toda la estructura semántica de la landing page:
 
+```plaintext
 index.html
 ├── <head>
-│ ├── <meta> (SEO, autor, viewport, description, charset, keywords)
-│ ├── Open Graph (Facebook, Instagram)
-│ ├── Twitter Card
-│ ├── JSON-LD (Organization, WebSite, WebPage, FAQPage)
-│ └── <title>
+│   ├── <meta> (SEO, autor, viewport, description, charset, keywords)
+│   ├── Open Graph (Facebook, Instagram)
+│   ├── Twitter Card
+│   ├── JSON-LD (Organization, WebSite, WebPage, FAQPage)
+│   └── <title>
 │
 ├── <body>
-│ ├── <header>
-│ │ └── Logo + Navegación principal (<nav>)
-│ │
-│ ├── <main>
-│ │ ├── Hero Section (h1 + CTA)
-│ │ ├── Servicios (<section id="services">)
-│ │ │ └── Artículos con descripciones de cada servicio
-│ │ │
-│ │ ├── Beneficios (<section id="benefits">)
-│ │ │ └── Figuras (<figure> + <figcaption>) con ventajas competitivas
-│ │ │
-│ │ ├── Portafolio (<section id="portfolio">)
-│ │ │ └── Galería de proyectos con imágenes y enlaces
-│ │ │
-│ │ ├── Sobre Nosotros (<section id="about">)
-│ │ │ └── Filosofía, valores y presentación del equipo
-│ │ │
-│ │ └── Preguntas Frecuentes (FAQ - <section id="faq">)
-│ │ └── Bloques <details>/<summary> con preguntas y respuestas
-│ │
-│ └── <footer>
-│ └── (Pendiente de implementación: contacto, redes sociales, políticas)
+│   ├── <header>
+│   │   └── Logo + Navegación principal (<nav>)
+│   │
+│   ├── <main>
+│   │   ├── Hero Section (h1 + CTA)
+│   │   ├── Servicios (<section id="services">)
+│   │   │   └── Artículos con descripciones de cada servicio
+│   │   │
+│   │   ├── Beneficios (<section id="benefits">)
+│   │   │   └── Figuras (<figure> + <figcaption>) con ventajas competitivas
+│   │   │
+│   │   ├── Portafolio (<section id="portfolio">)
+│   │   │   └── Galería de proyectos con imágenes y enlaces
+│   │   │
+│   │   ├── Sobre Nosotros (<section id="about">)
+│   │   │   └── Filosofía, valores y presentación del equipo
+│   │   │
+│   │   └── Preguntas Frecuentes (FAQ - <section id="faq">)
+│   │       └── Bloques <details>/<summary> con preguntas y respuestas
+│   │
+│   └── <footer>
+│       └── (Pendiente de implementación: contacto, redes sociales, políticas)
+```
 
 ---
 
