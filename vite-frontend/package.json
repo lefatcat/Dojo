@@ -1,8 +1,11 @@
 {
   "name": "vite-frontend",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
   "type": "module",
+  "description": "Entrenamiento frontend - Dojo (Fase con Vite + JS Vanilla)",
+  "author": "lefatcat <lefatcatsociety@hotmail.com>",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
